@@ -16,7 +16,7 @@ namespace ClassRoom
             KlasseRum rum1 = new KlasseRum();
             rum1.KlasseNavn = "1r";
             rum1.SemesterStart = new DateTime(2018,2,5);
-            Studerende e1 = new Studerende("Lasse", 7, 28);
+            Studerende e1 = new Studerende("Lasse", 13, 28);
             Studerende e2 = new Studerende("Jacob", 8, 18);
             Studerende e3 = new Studerende("Simon", 9, 24);
             Studerende e4 = new Studerende("Anders", 10, 4);

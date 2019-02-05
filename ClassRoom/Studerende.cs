@@ -9,6 +9,10 @@ namespace ClassRoom
             Navn = navn;
             BirthdayMonth = birthdayMonth;
             Birthday = birthday;
+            if (birthdayMonth <= 0 || birthdayMonth > 12)
+            {
+                throw new ArgumentException();
+            }
         }
 
         public string Navn { get; }
