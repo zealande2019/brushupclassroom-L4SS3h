@@ -35,15 +35,13 @@ namespace ClassRoom
             {
                 Console.WriteLine("Sommer");
             }
-            else
+            if (BirthdayMonth == 9 || BirthdayMonth == 10 || BirthdayMonth == 11)
             {
                 Console.WriteLine("Efterår");
             }
+            
             //return null da metode ikke længere er void.
             return null;
-
-
-
         }
         //public void Print()
         //{
